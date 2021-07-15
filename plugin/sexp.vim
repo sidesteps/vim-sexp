@@ -86,8 +86,8 @@ let s:sexp_mappings = {
     \ 'sexp_swap_element_forward':      '<M-l>',
     \ 'sexp_emit_head_element':         '<M-S-j>',
     \ 'sexp_emit_tail_element':         '<M-S-k>',
-    \ 'sexp_capture_prev_element':      '<M-S-h>',
-    \ 'sexp_capture_next_element':      '<M-S-l>',
+    \ 'sexp_capture_prev_element':      '<)',
+    \ 'sexp_capture_next_element':      '>)',
     \ }
 
 if !empty(g:sexp_filetypes)
