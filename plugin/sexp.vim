@@ -201,7 +201,6 @@ function! s:sexp_create_mappings()
     endfor
 
     for plug in ['sexp_indent',              'sexp_indent_top',
-               \ 'sexp_insert_at_list_head', 'sexp_insert_at_list_tail',
 	       \ 'sexp_convolute',           'sexp_splice_list']
         let lhs = get(g:sexp_mappings, plug, s:sexp_mappings[plug])
         if !empty(lhs)
@@ -375,8 +374,6 @@ Defplug! nnoremap sexp_curly_tail_wrap_element  sexp#wrap('e', '{', '}', 1, g:se
 Defplug  xnoremap sexp_curly_tail_wrap_element  sexp#wrap('v', '{', '}', 1, g:sexp_insert_after_wrap)
 
 " Insert at list terminal
-Defplug! nnoremap sexp_insert_at_list_head sexp#insert_at_list_terminal(0)
-Defplug! nnoremap sexp_insert_at_list_tail sexp#insert_at_list_terminal(1)
 
 " Raise list
 Defplug! nnoremap sexp_raise_list    sexp#docount(v:count, 'sexp#raise', 'n', 'sexp#select_current_list', 'n', 0, 0)
