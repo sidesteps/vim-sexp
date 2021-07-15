@@ -24,7 +24,7 @@ if !exists('g:sexp_filetypes')
 endif
 
 if !exists('g:sexp_enable_insert_mode_mappings')
-    let g:sexp_enable_insert_mode_mappings = 1
+    let g:sexp_enable_insert_mode_mappings = 0
 endif
 
 if !exists('g:sexp_insert_after_wrap')
@@ -76,8 +76,6 @@ let s:sexp_mappings = {
     \ 'sexp_square_tail_wrap_element':  '<LocalLeader>e]',
     \ 'sexp_curly_head_wrap_element':   '<LocalLeader>e{',
     \ 'sexp_curly_tail_wrap_element':   '<LocalLeader>e}',
-    \ 'sexp_insert_at_list_head':       '<LocalLeader>h',
-    \ 'sexp_insert_at_list_tail':       '<LocalLeader>l',
     \ 'sexp_splice_list':               '<LocalLeader>@',
     \ 'sexp_convolute':                 '<LocalLeader>?',
     \ 'sexp_raise_list':                '<LocalLeader>o',
