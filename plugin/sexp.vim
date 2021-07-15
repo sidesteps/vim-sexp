@@ -84,9 +84,9 @@ let s:sexp_mappings = {
     \ 'sexp_swap_list_forward':         '<M-j>',
     \ 'sexp_swap_element_backward':     '<M-h>',
     \ 'sexp_swap_element_forward':      '<M-l>',
-    \ 'sexp_emit_head_element':         '<M-S-j>',
-    \ 'sexp_emit_tail_element':         '<M-S-k>',
-    \ 'sexp_capture_prev_element':      '<)',
+    \ 'sexp_emit_head_element':         '>(',
+    \ 'sexp_emit_tail_element':         '<)',
+    \ 'sexp_capture_prev_element':      '<(',
     \ 'sexp_capture_next_element':      '>)',
     \ }
 
