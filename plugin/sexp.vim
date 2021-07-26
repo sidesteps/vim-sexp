@@ -36,10 +36,10 @@ if !exists('g:sexp_mappings')
 endif
 
 let s:sexp_mappings = {
-    \ 'sexp_outer_list':                'al',
-    \ 'sexp_inner_list':                'il',
-    \ 'sexp_outer_top_list':            'aL',
-    \ 'sexp_inner_top_list':            'iL',
+    \ 'sexp_outer_list':                'af',
+    \ 'sexp_inner_list':                'if',
+    \ 'sexp_outer_top_list':            'aF',
+    \ 'sexp_inner_top_list':            'iF',
     \ 'sexp_outer_string':              'as',
     \ 'sexp_inner_string':              'is',
     \ 'sexp_outer_element':             'ae',
